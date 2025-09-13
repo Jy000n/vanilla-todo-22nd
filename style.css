@@ -51,6 +51,7 @@ nav {
 .todoCount {
   margin-left: 1rem;
 }
+
 /* ------------- */
 
 main {
@@ -104,6 +105,7 @@ main {
   color: grey;
   cursor: not-allowed;
 }
+
 /* ------------- */
 
 .listContainer {
