@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1 id="goToday">Todo-List</h1></header>
+    <nav>
+      <button class="dateButton" id="prevButton"><</button>
+      <input type="date" id="currentDate" />
+      <button class="dateButton" id="nextButton">></button>
+      <span class="todoCount">0 개</span>
+    </nav>
+    <main>
+      <!-- 입력 목록 -->
+      <div class="inputContainer">
+        <input placeholder="할 일을 입력해주세요" id="todoInput" required />
+        <span class="appendTodo">+</span>
+      </div>
+      <!-- 투두리스트 목록 -->
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
