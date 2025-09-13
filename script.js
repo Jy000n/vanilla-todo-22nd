@@ -92,6 +92,11 @@ document.addEventListener("DOMContentLoaded", () => {
     saveTodos();
     renderTodos(currentDate.value);
   });
+  todoInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      appendTodo.click();
+    }
+  });
 
   // Todo 렌더링
   function renderTodos(date) {
